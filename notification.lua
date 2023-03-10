@@ -30,7 +30,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay, Color, ImageID)
 	Warning.BackgroundTransparency = 1.000
 	Warning.Position = UDim2.new(0.0258302614, 0, 0.0897435844, 0)
 	Warning.Size = UDim2.new(0, 44, 0, 49)
-	Warning.Image = "rbxassetid://" + ImageID
+	Warning.Image = "rbxassetid://"... ImageID
 	Warning.ImageColor3 = Color
 	Warning.ScaleType = Enum.ScaleType.Fit
 
